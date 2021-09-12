@@ -1,0 +1,186 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-dark-bg-color: #2f303a;
+  --secondary-light-bg-color: #f5f4fa;
+  --primary-bg-color: #ffffff;
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font-family);
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #000000;
+  font-family: var(--secondary-font-family);
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.footer-logo {
+  font-family: var(--secondary-font-family);
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.contacts-link {
+  color: var(--primary-text-color);
+}
+
+.first-part-logo,
+.site-nav-link:hover,
+.site-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+.hero-title,
+.footer-logo,
+.footer-address {
+  color: var(--primary-bg-color);
+}
+
+.site-nav-link,
+.quality-title,
+.work-title,
+.team-title,
+.team-member,
+.portfolio-project {
+  color: var(--title-text-color);
+}
+
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-light-bg-color);
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.hero-button,
+.portfolio-button:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-button,
+.hero-title,
+.portfolio-project {
+  letter-spacing: 0.06em;
+}
+
+.site-nav-link,
+.contacts-link {
+  letter-spacing: 0.02em;
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.hero-title {
+  font-style: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.hero-button {
+  font-style: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+}
+
+.quality-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+}
+
+.quality-description {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+}
+
+.work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-member {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  align-items: center;
+  text-align: center;
+}
+
+.member-major {
+  font-size: 16px;
+  line-height: 1.19;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-address,
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  align-items: left;
+  text-decoration: none;
+}
+
+.portfolio-project {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-project-kind {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.hero,
+.footer {
+  background-color: var(--secondary-dark-bg-color);
+}
+
+.team {
+  background-color: var(--secondary-light-bg-color);
+}
+
+.hero-button,
+.portfolio-button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
