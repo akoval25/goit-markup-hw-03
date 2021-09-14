@@ -36,6 +36,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .contacts-link {
@@ -50,6 +52,15 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
+}
+
+.hero {
+  text-align: center;
+}
+
+.quality-conteiner {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero-title,
@@ -105,6 +116,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -179,8 +191,17 @@ body {
 .hero-button,
 .portfolio-button {
   cursor: pointer;
+  border-radius: 4px;
 }
 
 address {
   font-style: normal;
+}
+
+.hero-button {
+  padding: 10px 32px 10px 32px;
+}
+
+.portfolio-button {
+  padding: 6px 22px 6px 22px;
 }
