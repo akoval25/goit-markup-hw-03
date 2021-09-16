@@ -194,7 +194,7 @@ body {
   border-radius: 4px;
 }
 
-address {
+.footer-address-contacts {
   font-style: normal;
 }
 
@@ -204,4 +204,12 @@ address {
 
 .portfolio-button {
   padding: 6px 22px 6px 22px;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.contacts {
+  display: flex;
 }
