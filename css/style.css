@@ -39,6 +39,11 @@ ul {
   padding: 0;
 }
 
+.portfolio-link {
+  list-style: none;
+  text-decoration: none;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -107,8 +112,7 @@ img {
 .quality-title,
 .work-title,
 .team-title,
-.team-member,
-.portfolio-project {
+.team-member {
   color: var(--title-text-color);
 }
 
@@ -136,8 +140,7 @@ img {
 }
 
 .hero-button,
-.hero-title,
-.portfolio-project {
+.hero-title {
   letter-spacing: 0.06em;
 }
 
@@ -166,7 +169,7 @@ img {
   align-items: center;
 }
 
-#hidden {
+.hide {
   display: none;
 }
 
@@ -210,18 +213,23 @@ img {
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
-  align-items: left;
+  align-items: flex-start;
   text-decoration: none;
 }
 
-.portfolio-project {
+a .portfolio-project {
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  margin: 0;
 }
 
-.portfolio-project-kind {
+a .portfolio-project-kind {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--primary-text-color);
+  margin: 0;
 }
 
 .hero {
@@ -394,9 +402,4 @@ img {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
-}
-
-.portfolio-project,
-.portfolio-project-kind {
-  margin: 0;
 }
